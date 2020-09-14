@@ -3,21 +3,7 @@ clear all
 clear screen
 close all
 clc
-%
-% This MATLAB code calculates a 2D truss structure
-% Code by: Dr. Federica Confalonieri
-
-
-%Note 1: % is a comment
-%Note 2: ; avoids output of the operation
-%Note 3: ' after a matrix means transpose
-%Note 4: * product between matrices and/or vectors and/or scalars
-%Note 5: == means "equal to"
-%Note 6: ~= means "different than"
-
 disp('Solution of 3D trusses with the finite element method.')
-
-%Real variable format (alternatives: "format long", "format long e")
 format short e
 
 %%Input
@@ -38,7 +24,7 @@ bc = load('bc.txt');
 Nbc = size(bc,1);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Here ends the input phase
+% Input phase done
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %Total number of dofs: 3*Nnodes
