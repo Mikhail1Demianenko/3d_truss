@@ -1,0 +1,5 @@
+%Nodal coordinates: x, y
+0	 0 
+500  471.4
+1000 0
+

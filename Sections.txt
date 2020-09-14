@@ -1,0 +1,4 @@
+%Young's modulus   Cross-sectional area
+210000   2000
+210000   2000
+210000   2000

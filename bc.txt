@@ -1,0 +1,3 @@
+%Boundary conditions: 0 = free dof, 1 = restrained dof
+1 1 1
+3 0 1

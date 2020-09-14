@@ -1,0 +1,2 @@
+%Loaded nodes: Node number Fx Fy
+2 20000 -20000
